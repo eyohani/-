@@ -1,0 +1,28 @@
+/* style.css */
+.header, #myUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    margin-bottom: 15px;
+  }
+  
+  .addBtn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+  }
+  
+  .addBtn:hover {
+    background-color: #777;
+  }
+  
+  input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+  }
+  
+  
