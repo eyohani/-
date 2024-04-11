@@ -1,25 +1,24 @@
-<header>
-    <script src="yohan.js";> </script>
-    <link rel='stylesheet' type='text/css' href='yohan.css'>
-</header>
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TO DO List</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="yohan.css">
 </head>
 <body>
 
   <div id="myDIV" class="header">
-    <h2>나의 할 일 목록</h2>
-    <input type="text" id="myInput" placeholder="할 일을 입력하세요">
+    <h2>TO DO LIST</h2>
+    <input type="text" id="myInput" placeholder="할 일 추가하기">
     <span onclick="newElement()" class="addBtn">추가</span>
   </div>
 
-  <ul id="myUL">
-  </ul>
+  <div id="boxContainer" class="box">
+    <ul id="myUL">
+    </ul>
+  </div>
 
-  <script src="script.js"></script>
+  <script src="yohan.js"></script>
 </body>
 </html>
